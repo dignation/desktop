@@ -1,0 +1,1 @@
+C:\Users\peter\RiderProjects\MauiApp1\DigNation\DigNation.csproj;x64
