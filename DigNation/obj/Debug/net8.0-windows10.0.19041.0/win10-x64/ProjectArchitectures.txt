@@ -1,1 +1,1 @@
-C:\Users\peter\RiderProjects\MauiApp1\DigNation\DigNation.csproj;x64
+C:\Users\peter\repos-new\dignation-desktop\DigNation\DigNation.csproj;x64

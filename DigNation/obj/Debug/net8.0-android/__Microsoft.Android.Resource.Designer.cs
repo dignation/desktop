@@ -5,7 +5,7 @@
 //------------------------------------------------------------------------------
 using System;
 
-namespace MauiApp1 {
+namespace DigNation {
 	#pragma warning disable IDE0002
 	public partial class Resource : _Microsoft.Android.Resource.Designer.ResourceConstant {
 	}

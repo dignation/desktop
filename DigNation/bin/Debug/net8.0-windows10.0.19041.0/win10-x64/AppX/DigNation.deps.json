@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {},
     ".NETCoreApp,Version=v8.0/win10-x64": {
-      "DigNation/1.0": {
+      "DigNation/0.3": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Debug": "8.0.0",
           "Microsoft.Maui.Controls": "8.0.40",
@@ -439,7 +439,7 @@
     }
   },
   "libraries": {
-    "DigNation/1.0": {
+    "DigNation/0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
