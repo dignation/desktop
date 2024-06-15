@@ -29,265 +29,265 @@
     <AppXManifest Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-15T00:25:18.418</Modified>
+      <Modified>2024-06-15T03:42:43.408</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-15T00:25:18.247</Modified>
+      <Modified>2024-06-15T02:40:42.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigNation.runtimeconfig.json">
       <PackagePath>DigNation.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-15T00:25:18.095</Modified>
+      <Modified>2024-06-15T02:40:42.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigNation.dll">
       <PackagePath>DigNation.dll</PackagePath>
-      <Modified>2024-06-15T00:25:17.472</Modified>
+      <Modified>2024-06-15T03:42:42.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DigNation.exe</PackagePath>
-      <Modified>2024-06-15T00:25:17.487</Modified>
+      <Modified>2024-06-15T03:42:42.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-06-14T22:18:36.499</Modified>
+      <Modified>2024-06-15T02:37:28.782</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-06-15T00:25:14.610</Modified>
+      <Modified>2024-06-15T02:37:41.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-06-15T00:25:14.628</Modified>
+      <Modified>2024-06-15T02:37:41.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-06-15T00:25:14.653</Modified>
+      <Modified>2024-06-15T02:37:41.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-06-15T00:25:14.690</Modified>
+      <Modified>2024-06-15T02:37:41.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-06-15T00:25:14.826</Modified>
+      <Modified>2024-06-15T02:37:41.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-06-14T22:18:36.495</Modified>
+      <Modified>2024-06-15T02:37:41.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-06-14T22:18:36.498</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.085</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.085</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.085</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.086</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.086</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.086</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.086</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.086</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.087</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.087</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.087</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.088</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.088</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.088</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.088</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.088</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.088</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.089</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.089</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.089</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.089</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.089</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.089</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.089</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.089</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.089</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.089</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.090</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.090</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.090</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.090</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.090</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.090</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.090</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.090</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.090</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.090</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.091</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.091</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.091</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.091</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.091</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.092</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.092</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.092</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.092</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.092</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.092</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.092</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-06-15T00:25:17.092</Modified>
+      <Modified>2024-06-15T02:37:41.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-06-15T00:25:17.092</Modified>
+      <Modified>2024-06-15T02:37:41.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2024-06-15T02:37:41.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\repos-new\dignation-desktop\DigNation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigNation.deps.json">
       <PackagePath>DigNation.deps.json</PackagePath>
-      <Modified>2024-06-15T00:25:18.051</Modified>
+      <Modified>2024-06-15T02:40:42.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

@@ -13,8 +13,7 @@
         </MenuBarItem>
         <MenuBarItem Text="Select Content">
             <MenuFlyoutItem Text="Map" Command="{Binding LoadWebsiteCommand}" CommandParameter="https://digmap.husky.nz" />
-            <MenuFlyoutItem Text="Docs" Command="{Binding LoadWebsiteCommand}" CommandParameter="https://digdoc.husky.nz/" />
-            <MenuFlyoutItem Text="Server Chat" Command="{Binding LoadWebsiteCommand}" CommandParameter="https://discord.com/channels/1088304550185812021/1198847242593915000" />
+            <MenuFlyoutItem Text="Docs" Command="{Binding LoadWebsiteCommand}" CommandParameter="https://digdoc.husky.nz/" />  
         </MenuBarItem>
         <MenuBarItem Text="Help">
             <MenuFlyoutItem Text="About" Command="{Binding ShowAboutCommand}" />
