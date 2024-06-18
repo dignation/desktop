@@ -37,7 +37,7 @@ jobs:
         run: dotnet publish Dignation/Dignation.csproj -c Release -f:net8.0-windows10.0.19041.0 /p:GenerateAppxPackageOnBuild=true /p:AppxPackageSigningEnabled=true /p:PackageCertificateThumbprint="${{ secrets.WINDOWS_CERT_THUMBPRINT }}"
       - name: Zip the published output
         run: |
-          cd publish_output
+          cd .\bin\Release\
           Compress-Archive -Path * -DestinationPath ../dignation.zip
           
       - name: Get the commit message
