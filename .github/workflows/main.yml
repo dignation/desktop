@@ -21,7 +21,12 @@ jobs:
       - name: Install MAUI workloads
         run: |
           dotnet workload install maui
-
+      - name: Decrypt PFX File
+        run: |
+          echo "${{ secrets.WINDOWS_SIGN_CERT }}" > cert.pfx.asc
+          certutil -decode cert.pfx.asc cert.pfx
+      - name: Add Cert to Store
+        run: certutil -user -q -p ${{ secrets.WINDOWS_CERT_PASS }} -importpfx cert.pfx NoRoot
       - name: Restore dependencies
         run: dotnet restore
 
@@ -29,7 +34,7 @@ jobs:
         run: dotnet build -c Release
 
       - name: Publish the app
-        run: dotnet publish -c Release -o publish_output
+        run: dotnet publish Dignation/Dignation.csproj -c Release -f:net8.0-windows10.0.19041.0 /p:GenerateAppxPackageOnBuild=true /p:AppxPackageSigningEnabled=true /p:PackageCertificateThumbprint="${{ secrets.WINDOWS_CERT_THUMBPRINT }}"
       - name: Zip the published output
         run: |
           cd publish_output
