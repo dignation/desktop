@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\peter\RiderProjects\MauiApp1\DigNation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-16T02:31:48.296</Modified>
+      <Modified>2024-06-18T13:57:21.917</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\peter\RiderProjects\MauiApp1\DigNation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-16T02:25:36.727</Modified>
+      <Modified>2024-06-18T13:35:39.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\RiderProjects\MauiApp1\DigNation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigNation.runtimeconfig.json">
       <PackagePath>DigNation.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-16T02:25:36.431</Modified>
+      <Modified>2024-06-18T13:35:38.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\RiderProjects\MauiApp1\DigNation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigNation.dll">
       <PackagePath>DigNation.dll</PackagePath>
-      <Modified>2024-06-16T02:31:47.643</Modified>
+      <Modified>2024-06-18T13:57:21.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\RiderProjects\MauiApp1\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DigNation.exe</PackagePath>
-      <Modified>2024-06-16T02:31:47.741</Modified>
+      <Modified>2024-06-18T13:57:21.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\RiderProjects\MauiApp1\DigNation\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\RiderProjects\MauiApp1\DigNation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigNation.deps.json">
       <PackagePath>DigNation.deps.json</PackagePath>
-      <Modified>2024-06-16T02:25:36.372</Modified>
+      <Modified>2024-06-18T13:35:38.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

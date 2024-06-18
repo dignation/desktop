@@ -56,7 +56,9 @@ public partial class MainPage : ContentPage
         }
         private async void Settings()
         {
-            await Shell.Current.GoToAsync("//settings");
+            System.Diagnostics.Debug.WriteLine("Settings method called");
+            await Shell.Current.GoToAsync("settings");
+            System.Diagnostics.Debug.WriteLine("Navigation should have occurred");
         }
         
     }

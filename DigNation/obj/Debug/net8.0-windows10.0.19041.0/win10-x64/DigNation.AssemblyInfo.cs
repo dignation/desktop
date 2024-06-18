@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DigNation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.3.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.3+efcca9217ab04502e4acdf6013d71c888837b80f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.3+39f3a86e7b7e10c1b2e58525559752ac6a53d090")]
 [assembly: System.Reflection.AssemblyProductAttribute("DigNation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DigNation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.3.0.0")]
