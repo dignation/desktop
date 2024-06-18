@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ldSv889Ynk9Lvo/tRyVIk0UJ1JqKwbhb9LkifcGq1Ycz9zbwl1yaGC6qw2MvHRYU4nJ8qTP7xFOYMacPg2fynA==",
+  "dgSpecHash": "93qLXs73XDCGXLp0mUrf0ayEzLmgfLotmS2K/qJ1w+WZPQyYjQjeJ9RuM7mT9us/eI2PMkfhMo7ocuBXmW4LrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\peter\\repos-new\\dignation-desktop\\DigNation\\DigNation.csproj",
+  "projectFilePath": "C:\\Users\\peter\\RiderProjects\\MauiApp1\\DigNation\\DigNation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -20,8 +20,8 @@
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.maui.controls.core\\8.0.40\\microsoft.maui.controls.core.8.0.40.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.maui.controls.xaml\\8.0.40\\microsoft.maui.controls.xaml.8.0.40.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.maui.core\\8.0.40\\microsoft.maui.core.8.0.40.nupkg.sha512",
-    "C:\\Users\\peter\\.nuget\\packages\\microsoft.maui.essentials\\8.0.40\\microsoft.maui.essentials.8.0.40.nupkg.sha512",
-    "C:\\Users\\peter\\.nuget\\packages\\microsoft.maui.graphics\\8.0.40\\microsoft.maui.graphics.8.0.40.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.maui.essentials\\8.0.60\\microsoft.maui.essentials.8.0.60.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.maui.graphics\\8.0.60\\microsoft.maui.graphics.8.0.60.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\8.0.40\\microsoft.maui.graphics.win2d.winui.desktop.8.0.40.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.40\\microsoft.maui.resizetizer.8.0.40.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",

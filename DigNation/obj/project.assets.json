@@ -412,10 +412,10 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.40": {
+      "Microsoft.Maui.Essentials/8.0.60": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.40",
+          "Microsoft.Maui.Graphics": "8.0.60",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
         },
         "compile": {
@@ -429,7 +429,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.40": {
+      "Microsoft.Maui.Graphics/8.0.60": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
@@ -977,10 +977,10 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.40": {
+      "Microsoft.Maui.Essentials/8.0.60": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.40",
+          "Microsoft.Maui.Graphics": "8.0.60",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
         },
         "compile": {
@@ -994,7 +994,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.40": {
+      "Microsoft.Maui.Graphics/8.0.60": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
@@ -2113,10 +2113,10 @@
         "microsoft.maui.core.nuspec"
       ]
     },
-    "Microsoft.Maui.Essentials/8.0.40": {
-      "sha512": "Alnt6o+nzenZ/aBxQrpBnz3PK83av9az01K1+WXnYhN25P5YxUdMMA6FGXqXSTMba3iTMod72+g1c3RqmwgjlQ==",
+    "Microsoft.Maui.Essentials/8.0.60": {
+      "sha512": "LK/ISlh4491LhlhNGl0qXtkeho0yuq/oLszPpgNrr9ZT4HbqAIc5NcuSGtXqgWoRZBeDu1IMG2slb0wqqYVZ8Q==",
       "type": "package",
-      "path": "microsoft.maui.essentials/8.0.40",
+      "path": "microsoft.maui.essentials/8.0.60",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2174,14 +2174,14 @@
         "lib/netstandard2.1/Microsoft.Maui.Essentials.dll",
         "lib/netstandard2.1/Microsoft.Maui.Essentials.pdb",
         "lib/netstandard2.1/Microsoft.Maui.Essentials.xml",
-        "microsoft.maui.essentials.8.0.40.nupkg.sha512",
+        "microsoft.maui.essentials.8.0.60.nupkg.sha512",
         "microsoft.maui.essentials.nuspec"
       ]
     },
-    "Microsoft.Maui.Graphics/8.0.40": {
-      "sha512": "QLmEVtH+LxP5Q86CRlQyiwXwk3CB9U7wyo0FES0/JJZvITjH7cuKOwI2rYDbQ68kiBEMCBExWCu9hxkw5cDF2g==",
+    "Microsoft.Maui.Graphics/8.0.60": {
+      "sha512": "rPL2ZW7iV6k+g9S4+3GhCC88/V0F7AIUx5fDEGz1BNY3VUw4+p/SVnvDwiY1tRROT4KMvAjrhUwjfZZ0Z7g+Nw==",
       "type": "package",
-      "path": "microsoft.maui.graphics/8.0.40",
+      "path": "microsoft.maui.graphics/8.0.60",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2243,7 +2243,7 @@
         "lib/netstandard2.1/Microsoft.Maui.Graphics.dll",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.pdb",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.xml",
-        "microsoft.maui.graphics.8.0.40.nupkg.sha512",
+        "microsoft.maui.graphics.8.0.60.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
       ]
     },
@@ -3182,25 +3182,26 @@
     "net8.0-windows10.0.19041": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.40",
-      "Microsoft.Maui.Controls.Compatibility >= 8.0.40"
+      "Microsoft.Maui.Controls.Compatibility >= 8.0.40",
+      "Microsoft.Maui.Essentials >= 8.0.60"
     ]
   },
   "packageFolders": {
     "C:\\Users\\peter\\.nuget\\packages\\": {},
-    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\peter\\repos-new\\dignation-desktop\\DigNation\\DigNation.csproj",
+      "projectUniqueName": "C:\\Users\\peter\\RiderProjects\\MauiApp1\\DigNation\\DigNation.csproj",
       "projectName": "DigNation",
-      "projectPath": "C:\\Users\\peter\\repos-new\\dignation-desktop\\DigNation\\DigNation.csproj",
+      "projectPath": "C:\\Users\\peter\\RiderProjects\\MauiApp1\\DigNation\\DigNation.csproj",
       "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\peter\\repos-new\\dignation-desktop\\DigNation\\obj\\",
+      "outputPath": "C:\\Users\\peter\\RiderProjects\\MauiApp1\\DigNation\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3241,6 +3242,10 @@
           "Microsoft.Maui.Controls.Compatibility": {
             "target": "Package",
             "version": "[8.0.40, )"
+          },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.60, )"
           }
         },
         "imports": [
@@ -3268,7 +3273,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

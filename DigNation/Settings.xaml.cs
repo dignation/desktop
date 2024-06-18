@@ -1,23 +1,24 @@
 ﻿using System.Windows.Input;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Storage;
+
 
 namespace DigNation;
 
-
-public partial class MainPage : ContentPage
+public partial class Settings : ContentPage
 {
-    public MainPage()
+    public Settings()
     {
         InitializeComponent();
-        BindingContext = new MainPageViewModel(webView);
     }
 
-    public class MainPageViewModel : BindableObject
+    public class SettingsViewModel : BindableObject
     {
         private WebView _webView;
         private MauiProgram.ICloseApplication _closeApplication;
+        private string _selectedDefaultPage;
 
-        public MainPageViewModel(WebView webView)
+        public SettingsViewModel(WebView webView)
         {
             _webView = webView;
             _closeApplication = DependencyService.Get<MauiProgram.ICloseApplication>();
@@ -26,14 +27,17 @@ public partial class MainPage : ContentPage
             LoadWebsiteCommand = new Command<string>(LoadWebsite);
             ShowAboutCommand = new Command(ShowAbout);
             SettingsCommand = new Command(Settings);
+            GoBackCommand = new Command(GoBack);
         }
         public ICommand RefreshCommand { get; }
         public ICommand ExitCommand { get; }
         public ICommand LoadWebsiteCommand { get; }
-        
+
         public ICommand ShowAboutCommand { get; }
-        
+
         public ICommand SettingsCommand { get; }
+
+        public ICommand GoBackCommand { get; }
 
 
         private void RefreshWebView()
@@ -58,6 +62,26 @@ public partial class MainPage : ContentPage
         {
             await Shell.Current.GoToAsync("//settings");
         }
-        
+        private async void GoBack()
+        {
+            await Shell.Current.GoToAsync("//MainPage");
+
+        }
+
+        public string SelectedDefaultPage
+        {
+            get { return _selectedDefaultPage; }
+            set
+            {
+                if (_selectedDefaultPage != value)
+                {
+                    _selectedDefaultPage = value;
+                    OnPropertyChanged();
+
+                    // Set the default page route in your application settings
+                    Preferences.Set("DefaultPageRoute", $"//{_selectedDefaultPage}");
+                }
+            }
+        }
     }
 }
