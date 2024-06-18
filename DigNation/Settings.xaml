@@ -20,23 +20,55 @@
             <MenuFlyoutItem Text="About" Command="{Binding ShowAboutCommand}" />
         </MenuBarItem>
         <MenuBarItem Text="Settings">
+            
             <MenuFlyoutItem Text="Open" Command="{Binding SettingsCommand}" />
         </MenuBarItem>
-        <MenuBarItem Text="Settings actions">
-            <MenuFlyoutItem Text="Back" Command="{Binding GoBackCommand}"></MenuFlyoutItem>
+        <!--This provides a space for our save and load fuctions-->
+        <MenuBarItem Text="Settings asctions">
+            <MenuFlyoutItem Text="Save" Command="{Binding SaveCommand}"></MenuFlyoutItem>
+            <MenuFlyoutItem Text="Load" Command="{Binding LoadCommand}"></MenuFlyoutItem>
+            
         </MenuBarItem>
     </ContentPage.MenuBarItems>
     <ContentPage.Content>
         <StackLayout>
-            <!-- Your existing content here -->
-            <Picker Title="Default Page" SelectedItem="{Binding SelectedDefaultPage}">
+            <Label Text="Settings is work in progress and needs to be implmented dont worry this is coming soon"/>
+            <!--Implment this when you have internet-->
+            
+            <!--   <Label Text="Settings" FontSize="Large" />
+            <Switch x:Name="ThemeSwitch" Toggled="OnThemeSwitchToggled">
+                <Switch.OnColor>
+                    <OnPlatform x:TypeArguments="Color" Android="DarkGray" iOS="DarkGray" />
+                </Switch.OnColor>
+            </Switch>
+            <Label Text="Dark Mode" />
+    
+            <Picker x:Name="LanguagePicker" Title="Language" SelectedIndexChanged="OnLanguagePickerSelectedIndexChanged">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>main</x:String>
-                        <x:String>settings</x:String>
+                        <x:String>English</x:String>
+                        <x:String>Spanish</x:String>
+                       
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
+    
+            <Switch x:Name="NotificationSwitch" Toggled="OnNotificationSwitchToggled">
+                <Switch.OnColor>
+                    <OnPlatform x:TypeArguments="Color" Android="DarkGray" iOS="DarkGray" />
+                </Switch.OnColor>
+            </Switch>
+            <Label Text="Enable Notifications" />
+    
+            <Switch x:Name="AutoUpdateSwitch" Toggled="OnAutoUpdateSwitchToggled">
+                <Switch.OnColor>
+                    <OnPlatform x:TypeArguments="Color" Android="DarkGray" iOS="DarkGray" />
+                </Switch.OnColor>
+            </Switch>
+            <Label Text="Enable Auto-Updates" /> -->
+    
+            <!-- Add other settings here -->
+            <Label Text="pssssst want to help with the dev work on this app head over too https://github.com/HuskyNZ/dignation-desktop to see what you can do"/>
         </StackLayout>
     </ContentPage.Content>
    

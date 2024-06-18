@@ -19,7 +19,7 @@
             <MenuFlyoutItem Text="About" Command="{Binding ShowAboutCommand}" />
         </MenuBarItem>
         <MenuBarItem Text="Settings">
-            <Button Command="{Binding SettingsCommand}" Text="Settings" />
+            <MenuFlyoutItem Command="{Binding SettingsCommand}" Text="Settings" />
         </MenuBarItem>
     </ContentPage.MenuBarItems>
     <WebView x:Name="webView" Source="https://digmap.husky.nz" />

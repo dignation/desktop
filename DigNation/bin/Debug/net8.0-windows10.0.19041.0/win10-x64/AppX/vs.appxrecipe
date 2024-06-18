@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\peter\RiderProjects\MauiApp1\DigNation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-18T13:57:21.917</Modified>
+      <Modified>2024-06-18T21:10:03.403</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\RiderProjects\MauiApp1\DigNation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DigNation.dll">
       <PackagePath>DigNation.dll</PackagePath>
-      <Modified>2024-06-18T13:57:21.271</Modified>
+      <Modified>2024-06-18T21:10:01.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\RiderProjects\MauiApp1\DigNation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DigNation.exe</PackagePath>
-      <Modified>2024-06-18T13:57:21.377</Modified>
+      <Modified>2024-06-18T21:10:02.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\peter\RiderProjects\MauiApp1\DigNation\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

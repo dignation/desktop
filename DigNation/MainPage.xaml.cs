@@ -33,7 +33,7 @@ public partial class MainPage : ContentPage
         
         public ICommand ShowAboutCommand { get; }
         
-        public ICommand SettingsCommand { get; }
+        public ICommand SettingsCommand { get;}
 
 
         private void RefreshWebView()

@@ -31,6 +31,8 @@ public partial class Settings : ContentPage
             SettingsCommand = new Command(Settings);
             GoBackCommand = new Command(GoBack);
             _navigation = navigation;
+            SaveCommand = new Command(Save);
+            LoadCommand = new Command(Load);
         }
        // public ICommand RefreshCommand { get; }
         public ICommand ExitCommand { get; }
@@ -41,6 +43,24 @@ public partial class Settings : ContentPage
         public ICommand SettingsCommand { get; }
 
         public ICommand GoBackCommand { get; }
+        
+        public ICommand SaveCommand { get; }
+        
+        public ICommand LoadCommand { get; }
+        
+      //  public void SaveSettings()
+        //{
+          //  var settings = new SettingsData
+            //{
+              //  DarkMode = ThemeSwitch.IsToggled,
+                //Language = LanguagePicker.SelectedItem.ToString(),
+                //EnableNotifications = NotificationSwitch.IsToggled,
+                //EnableAutoUpdates = AutoUpdateSwitch.IsToggled
+            //};
+
+            //var json = System.Text.Json.JsonSerializer.Serialize(settings);
+            //System.IO.File.WriteAllText("settings.json", json);
+        //}
 
 
       //  private void RefreshWebView()
@@ -61,9 +81,17 @@ public partial class Settings : ContentPage
         {
             Application.Current.MainPage.DisplayAlert("About", "DigNation Desktop is a central applacation for all things dignation\n\nV0.2\n\nCreated and powered by HuskNZ", "OK");
         }
+        private void Save()
+        {
+            Application.Current.MainPage.DisplayAlert("Save this config", "This button is work in progress and will let you save your config to your device or somewhere else", "Please click here to close this");
+        }
+        private void Load()
+        {
+            Application.Current.MainPage.DisplayAlert("Load Config", "This button is work in progress and will let you load a config from your device or a vaild URL", "Please click here to close this");
+        }
         private async void Settings()
         {
-            await Shell.Current.GoToAsync("//settings");
+            Application.Current.MainPage.DisplayAlert("Silly", "Your alredy in settings", "Ok");
         }
         private async void GoBack()
         {
@@ -71,20 +99,6 @@ public partial class Settings : ContentPage
             await Shell.Current.GoToAsync("//MainPage");
             System.Diagnostics.Debug.WriteLine("Navigation should have occurred");
         }
-        public string SelectedDefaultPage
-        {
-            get { return _selectedDefaultPage; }
-            set
-            {
-                if (_selectedDefaultPage != value)
-                {
-                    _selectedDefaultPage = value;
-                    OnPropertyChanged();
-
-                    // Set the default page route in your application settings
-                    Preferences.Set("DefaultPageRoute", $"//{_selectedDefaultPage}");
-                }
-            }
+                
         }
     }
-}
