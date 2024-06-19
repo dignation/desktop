@@ -1,55 +1,78 @@
-name: Build .NET MAUI Windows
+name: Build and Release .NET MAUI App
 
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches:
+      - master  # Change this to your main branch
 
 jobs:
   build:
-
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v4.1.7
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: 8.0.x
-    - name: Install MAUI workload
-      run: dotnet workload install maui
-    - name: Decrypt PFX File
-      run: |
-        echo "${{ secrets.WINDOWS_SIGN_CERT }}" > cert.pfx.asc
-        certutil -decode cert.pfx.asc cert.pfx
-    - name: Add Cert to Store
-      run: certutil -user -q -p ${{ secrets.WINDOWS_CERT_PASS }} -importpfx cert.pfx NoRoot
-    - name: Build
-      run: dotnet publish Dignation/Dignation.csproj -c Release -f:net8.0-windows10.0.19041.0 /p:GenerateAppxPackageOnBuild=true /p:AppxPackageSigningEnabled=true /p:PackageCertificateThumbprint="${{ secrets.WINDOWS_CERT_THUMBPRINT }}"      
-    - name: Upload Build Artifacts
-      uses: actions/upload-artifact@v4.3.3
-      with:
-        path: .\**\AppPackages\**\*.*
-    - name: Set short SHA
-      id: short_sha
-      run: echo "::set-output name=sha::$(echo ${GITHUB_SHA:0:7})"
-    - name: Create Release
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-      with:
-        tag_name: ${{ steps.short_sha.outputs.sha }}
-        release_name: ${{ github.event.head_commit.message }}
-        draft: false
-        prerelease: false
-    - name: Upload Release Asset
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-        asset_path: ${{ steps.upload_build_artifacts.outputs.path }}
-        asset_name: artifact.zip
-        asset_content_type: application/zip
+      - name: Checkout repository
+        uses: actions/checkout@v4.1.7
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.x' # Specify the .NET version that supports MAUI
+
+      - name: Install MAUI workloads
+        run: |
+          dotnet workload install maui
+      - name: Decrypt PFX File
+        run: |
+          echo "${{ secrets.WINDOWS_SIGN_CERT }}" > cert.pfx.asc
+          certutil -decode cert.pfx.asc cert.pfx
+      - name: Add Cert to Store
+        run: certutil -user -q -p ${{ secrets.WINDOWS_CERT_PASS }} -importpfx cert.pfx NoRoot
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build the app
+        run: dotnet build -c Release
+
+      - name: Publish the app
+        run: dotnet publish Dignation/Dignation.csproj -c Release -f:net8.0-windows10.0.19041.0 /p:GenerateAppxPackageOnBuild=true /p:AppxPackageSigningEnabled=true /p:PackageCertificateThumbprint="${{ secrets.WINDOWS_CERT_THUMBPRINT }}"
+      - name: Zip the published output
+        run: |
+          cd .\bin\Release\
+          Compress-Archive -Path * -DestinationPath ../dignation.zip
+          
+      - name: Get the commit message
+        id: get_commit_message
+        run: echo "COMMIT_MESSAGE=$(git log -1 --pretty=%B)" >> $GITHUB_ENV
+
+      - name: Get the next tag
+        id: get_next_tag
+        run: |
+          git fetch --tags
+          latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
+          if [ -z "$latest_tag" ]; then
+            next_tag="2.0"
+          else
+            next_tag=$(echo $latest_tag | awk -F. '{$NF += 1;}1' | sed 's/ /./g')
+          fi
+          echo "NEXT_TAG=$next_tag" >> $GITHUB_ENV
+
+      - name: Create GitHub release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.NEXT_TAG }}
+          release_name: ${{ env.COMMIT_MESSAGE }}
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: publish_output
+          asset_name: dignation.zip
+          asset_content_type: application/zip
